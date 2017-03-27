@@ -11,9 +11,8 @@ class Punto:
 			(self.x - otro_punto.x)**2 +
 			(self.y - otro_punto.y)**2)
 
-punto1 = Punto()
-punto2 = Punto()
-punto1.reiniciar()
-punto2.mover(5,0)
+punto = Punto()
+punto.x = 3
+print(punto.x)
 
-print (punto2.calcular_distancia(punto1))
+print(punto.y)
